@@ -17,7 +17,7 @@ $(document).ready(function() {
           method: "GET",
           url: url,
           headers: {
-            
+            "Content-Type": "application/json"
           },
 
           dataType: "json",
